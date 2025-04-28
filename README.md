@@ -12,19 +12,33 @@ To write a program to implement the the Logistic Regression Using Gradient Desce
 
 ## Algorithm:
 
-1.Import the required libraries.
+1.Import the required libraries and Load the Dataset.
 
-2.Load the dataset.
+2.Drop Irrelevant Columns (sl_no, salary).
 
-3.Define X and Y array.
+3.Convert Categorical Columns to Category Data Type.
 
-4.Define a function for costFunction,cost and gradient.
+4.Encode Categorical Columns as Numeric Codes.
 
-5.Define a function to plot the decision boundary.
+5.Split Dataset into Features (X) and Target (Y).
 
-6.Define a function to predict the Regression value.
+6.Initialize Model Parameters (theta) Randomly.
 
-7.Print the results.
+7.Define Sigmoid Activation Function.
+
+8.Define Logistic Loss Function (Binary Cross-Entropy).
+
+9.Implement Gradient Descent to Minimize Loss.
+
+10.Train the Model by Updating theta Iteratively.
+
+11.Define Prediction Function Using Threshold (0.5).
+
+12.Predict Outcomes for Training Set.
+
+13.Calculate and Display Accuracy.
+
+14.Make Predictions on New Data Samples.
 
 ## Program:
 ```
@@ -97,7 +111,7 @@ print(y_prednew)
 ## Output:
 
 ### Placement Dataset
-![Screenshot 2025-04-04 101316](https://github.com/user-attachments/assets/6f8899cb-83b4-4000-905b-2e0a39ea4cae)
+![image](https://github.com/user-attachments/assets/7d3104c9-1aa1-471b-bd0c-208313b68449)
 
 ### Dataset after Feature Engineering
 ![Screenshot 2025-04-04 101329](https://github.com/user-attachments/assets/7c4d3cd2-cea5-473f-933e-2573a6554fc4)
@@ -122,8 +136,7 @@ print(y_prednew)
 
 ### Y Predicted with different X Values
 ![Screenshot 2025-04-04 101547](https://github.com/user-attachments/assets/9bb91fe0-8749-4025-b83e-962f6c8fc4f6)
-![Screenshot 2025-04-04 101603](https://github.com/user-attachments/assets/dab5e903-6eab-4198-a6d8-cc8ebc52f3b4)
-
+![image](https://github.com/user-attachments/assets/66461c00-139b-4866-a715-67a768b5a8de)
 
 ## Result:
 
